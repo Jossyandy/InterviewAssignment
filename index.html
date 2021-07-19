@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiidelab Signup form</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <div class="nav-bar">
+                <p> Pro Cleaners</p>
+                <p>Phone: 09066247708</p>
+            </div>
+        </nav>
+
+        <div class="header-body">
+            <div class="container ">
+                <div class="header-container">
+                    <div class="instruction header-item">
+                        <div class="header-item__info">
+                            <h2>Vancover's Best home cleaners</h2>
+                            <p>Pro cleaning is Vancover's best cleaning service. For the quality made service Vancover
+                                relies
+                                on, book one of our experienced, background-checked professionals to have your home
+                                clean in
+                                no
+                                time.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="header-item">
+                        <div class="header-item__form">
+                            <div class="booking-form-info">
+                                <h5> Request info & Booking </h5>
+                                <p>Fill this form and we'll contact you as soon as we can</p>
+                            </div>
+
+                            
+                            <div class="wrapper">
+                                <form class="form" action="" name="Signupform" id="Signupform">
+
+                                    <input type="text" name="fullname" id="fullname" placeholder="Your Name" required>
+                                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                                    <input type="tel" name="phone" id="phone" placeholder="Your Phone" required>
+                                    <input type="submit" id="submit" value="Request Info & Booking" class="submit" onclick="myFunction()">
+
+                                </form>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+    <script>
+        document.getElementById("submit").addEventListener("click", myFunction);
+        function myFunction(){
+        var va1=document.getElementById('fullname')
+        var va2=document.getElementById('email')
+        var va3=document.getElementById('phone')
+
+        alert(va1,va2,va3);
+    }
+    </script>
+
+    <div class="container">
+        <div class="services-section">
+            <div class="box">
+                <i class="fa fa-user fa-5x colourinuse"></i>
+                <h1>Trusted Professionals</h1>
+                <p>Our professionals are experienced, friendly, and background-checked</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-calendar fa-5x colourinuse"></i>
+                <h1>Trusted </h1>
+                <p>Our professionals are experienced, friendly, and background-checked</p>
+            </div>
+            <div class="box">
+                <i class="fa fa-dollar fa-5x colourinuse"></i>
+                <h1>Trusted Professionals</h1>
+                <p>Our professionals are experienced, friendly, and background-checked</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="client-section-container">
+        <div class="container">
+            <h2>What Our Client Say</h2>
+            <div class="client-section">
+                <div class="client-section__item">
+                    <img src="C:\Users\pc\Desktop\InterviewAssignment\womanonsweater.png" alt="" srcset="">
+                    <p>Paulo Parra</p>
+                    <hr>
+                    <p><i>The team was fast and friendly-honestly my house hasn't been this clean in years</i></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                </div>
+                <div class="client-section__item">
+                    <img src="C:\Users\pc\Desktop\InterviewAssignment\womaninbeach.jpg" alt="" srcset="">
+                    <p>Ana Carolina</p>
+                    <hr>
+                    <p><i>It feels so great walking into a fresh, clean apartment everyday. These guys make my place spotless</i></p>
+                    <p class="fa fa-star  fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                    <p class="fa fa-star fa-star fa-2x gold-color "></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer">
+            <h5 style="margin-left: 15%; color: white; margin-top: 0; margin-bottom: 0">
+                <p style="margin: 0; margin-top: 20px;" class="fa fa-copyright"><br></p>
+               &copy; Copyright. All Rights Reserved
+                <p style="margin: 0;"><br></p>
+            </h5>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
